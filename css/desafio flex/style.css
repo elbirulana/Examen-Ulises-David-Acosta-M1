@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    border: 2px solid black;
+}
+.container{
+    margin: 1rem;
+    width:90%;
+    margin: 5%;
+    display: flex;
+}
+
+.container_uno{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajas1{
+    width: 244px;
+    height: 244px;
+    background-color: lightblue;
+}
+
+.container_dos{
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cajas2{
+    height: 244px;
+    width: 402px;
+    background-color: red;
+}
+
+.caja_contenedor{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.cajas3{
+    width: 357px;
+    height: 244px;
+    background-color: #DE8080;
+}
